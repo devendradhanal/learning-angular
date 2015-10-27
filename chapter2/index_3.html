@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html ng-app>
+
+<head>
+    <title> Iterating over Data </title>
+</head>
+
+<body ng-init="people=[ { name: 'Devendra', age: 26} , { name : 'Pranay' , age: 24 } , { name: 'Shamsher', age: 26 }, { name: 'Amol', age: 31 } ]">
+<ul>
+	<li ng-repeat="person in people">{{ person.name }} {{ person.age }} </li>
+</ul>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+</body>
+
+</html>
